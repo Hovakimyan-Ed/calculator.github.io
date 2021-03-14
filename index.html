@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+<div class="big-div">
+    <div class="input-div">
+        <div>
+            <p>Numper</p>
+            <input id="id1">
+        </div>
+        <div>
+            <p>Signs</p>
+            <input id="id2">
+        </div>
+        <div>
+            <p>Numper 2</p>
+            <input id="id3">
+        </div>
+    </div>
+</div>
+<button class="bt1" onclick="o1()">Result</button>
+
+<script>
+    function o1(){
+        let a=+document.getElementById("id1").value
+        let b=document.getElementById("id2").value
+        let c=+document.getElementById("id3").value
+
+        if(b=="+"){
+            alert(a+c)
+        }
+        else if(b=="-"){
+            alert(a-c)
+        }
+        else if(b=="*"){
+            alert(a*c)
+        }
+        else if(b=="/"){
+            alert(a/c)
+        }
+        else if(b=="%"){
+            alert(a%c)
+        }
+    }
+</script>
+</body>
+</html>

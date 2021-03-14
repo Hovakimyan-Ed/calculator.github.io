@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+#id2{
+    width: 50px;
+}
+.input-div{
+    display: flex;
+}
+.input-div div{
+    margin: 5px;
+    text-align: center;
+}
+.input-div input{
+    text-align: center;
+}
+.input-div p{
+    margin: 5px;
+}
+.big-div{
+    display: flex;
+}
+.bt1{
+    margin: 5px;
+}
+.inp1{
+    text-align: center;
+}
