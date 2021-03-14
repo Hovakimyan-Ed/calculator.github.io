@@ -6,6 +6,7 @@
 }
 .input-div{
     display: flex;
+    flex-wrap: wrap;
 }
 .input-div div{
     margin: 5px;
